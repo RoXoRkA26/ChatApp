@@ -10,7 +10,9 @@ public class Window extends JFrame {
         setExtendedState(MAXIMIZED_BOTH);
         setMinimumSize(new Dimension(500, 700));
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setLayout(new BorderLayout());
 
+        pack();
         setVisible(true);
     }
 }
